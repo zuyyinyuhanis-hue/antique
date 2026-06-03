@@ -4,9 +4,23 @@
   margin: 20px 0;           
 }
 
-body {
+.body {
   text-align: center;
 }
+.center-image {
+  display: block;           
+  margin: 20px auto;       
+  max-width: 50%;         
+  height: 50%;            
+}
+
+.typewriter {
+  width: 300px;     
+  display: block;   
+  margin: 20px auto; 
+  border: 2px solid black; 
+}
+
 
 .center-text {
   text-align: center;  
@@ -21,13 +35,28 @@ body {
   text-align: center;         
 }
 
-
 .form-container {
   display: flex;             
   justify-content: center;    
   align-items: center;        
   height: 100vh;              
   text-align: center;         
+}
+
+.navbar {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.navbar a {
+  text-decoration: none;  
+  color: black;        
+  margin: 0 10px;         
+  font-weight: bold;      
+}
+
+.navbar a:hover {
+  color: darkblue;
 }
 
 .site-footer {
